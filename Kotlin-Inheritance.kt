@@ -25,7 +25,7 @@ class FarkliSanatci(isim:String, yas: Int, meslek:String, uzmanlik:String) : San
 
 	fun EkstraUcret(){
 	        
-		println("Farklı sanatçılar ekstra ücret alabilmektedirler."
+		println("Farklı sanatçılar ekstra ücret alabilmektedirler.")
 		
 	}
 	
