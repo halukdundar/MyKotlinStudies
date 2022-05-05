@@ -1,6 +1,6 @@
-//Encapsulation
+///Inheritance...Miras alma
 
-class Sanatci(isim:String, yas: Int, meslek:String, uzmanlik:String){
+open class Sanatci(isim:String, yas: Int, meslek:String, uzmanlik:String){
 
 	var isim:String?=isim
 		private set 	// isme erişilebilir 
@@ -10,4 +10,10 @@ class Sanatci(isim:String, yas: Int, meslek:String, uzmanlik:String){
 
 	var uzmanlik:String?=uzmanlik  //sanatçının mesleğine hem erişilebilir hem de değiştirilebilir
 
+}
+
+
+class FarkliSanatci(isim:String, yas: Int, meslek:String, uzmanlik:String) : Sanatci(isim, yas, meslek){
+
+	
 }
