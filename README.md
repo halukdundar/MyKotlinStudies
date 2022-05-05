@@ -1,7 +1,10 @@
 # MyKotlinStudies
 my kotlin studies...
 
-Soyutlama
-Kapsülleme
-Miras Alma 
-Çok Biçimlilik
+1-Soyutlama
+
+2-Kapsülleme
+
+3-Miras Alma 
+
+4-Çok Biçimlilik
