@@ -19,8 +19,14 @@ open class Sanatci(isim:String, yas: Int, meslek:String, uzmanlik:String){
 
 }
 
-//Inheritance...Sanatci sinifinden miras olma gerçekleşir
+//Inheritance...Sanatci sinifinden miras alma gerçekleşmektedir.
+
 class FarkliSanatci(isim:String, yas: Int, meslek:String, uzmanlik:String) : Sanatci(isim, yas, meslek){
 
+	fun EkstraUcret(){
+	        
+		println("Farklı sanatçılar ekstra ücret alabilmektedirler."
+		
+	}
 	
 }
