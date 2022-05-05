@@ -1,4 +1,11 @@
-///Inheritance...Miras alma
+
+//Inheritance...Miras alma
+
+/*
+Alt ve üst sınıfın ortak özelliklerinden alabilme sistemine Miras Alma denir. 
+Örneğin; Bir nesneni diğer bir nesne ile ortak özelliklerindeki verileri alabilmektedir.
+
+*/
 
 open class Sanatci(isim:String, yas: Int, meslek:String, uzmanlik:String){
 
@@ -12,7 +19,7 @@ open class Sanatci(isim:String, yas: Int, meslek:String, uzmanlik:String){
 
 }
 
-
+//Inheritance...Sanatci sinifinden miras olma gerçekleşir
 class FarkliSanatci(isim:String, yas: Int, meslek:String, uzmanlik:String) : Sanatci(isim, yas, meslek){
 
 	
